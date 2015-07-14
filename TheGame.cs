@@ -23,6 +23,7 @@ namespace ClassesAndObjects
             Console.WriteLine("How many adventurers are in your group?");
         }
 
+
         //    public static void (int level)
         //{
 
@@ -95,7 +96,7 @@ namespace ClassesAndObjects
                     }
                 default:
                     {
-                        Console.WriteLine("Congratulations!!! You are now" + rankInteger + "level developer!");
+                        Console.WriteLine("Congratulations!!! You are now a " + rankInteger + " level developer!");
                         break;
                     }
             }//End Of Switch
